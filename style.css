@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(205, 145, 255);
+}
+#centre{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: rgb(167, 60, 255);
+}
+#panel{
+    overflow: hidden;
+    width: 70%;
+    height: 70%;
+    border-radius: 20px;
+    background-color: #fff;
+}
+#tpnl{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(177, 81, 255);
+}
+#bpnl{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: calc(100% - 60px);
+    padding: 15px;
+    background-color: rgb(255, 255, 255)
+}
+.part{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    color: #fff;
+}
+.cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    padding: 15px;
+    border-radius: 4px;
+    background-color: #fff;
+    color: rgb(167, 60, 255);
+}
+.bubble{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background-color: rgb(205, 145, 255);
+    color: #fff;
+}
